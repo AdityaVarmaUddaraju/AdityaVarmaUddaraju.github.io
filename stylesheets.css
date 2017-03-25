@@ -1,0 +1,36 @@
+body{
+      background-image: url("bg.jpg");
+      background-size: contain;
+}
+
+
+
+div{ border:1px;
+    color:black;
+    align: left;
+    background-color: black;
+}
+
+p{ font-size: 45px;
+    color: #0000ff;
+    align: left;
+    padding: 2px;
+    border: 3px solid black;
+
+}
+h1{ align: center;
+    font-size: 50px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+.large{
+  font-size: 200px;
+}
+
+table{
+      border-collapse: separate;
+      border-spacing: 40px 40px;
+}
