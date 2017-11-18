@@ -1,33 +1,45 @@
-body{
-      background-image: url("bg.jpg");
-      background-size: contain;
+body, html {
+    height: 100%;
 }
 
+.bg {
+    /* The image used */
+    background-image: url("bg.jpg");
 
+    /* Full height */
+    height: 100%;
 
-div{ border:1px;
-    color:black;
-    align: left;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div{
     background-color: black;
+    align: left;
+
 }
 
 p{ font-size: 45px;
-    color: #0000ff;
+    color: white;
     align: left;
     padding: 2px;
-    border: 3px solid black;
+
 
 }
 h1{ align: center;
     font-size: 50px;
+    color: #000080;
 }
 
 h2{
     font-size: 50px;
+    color: orange;
 }
 
 .large{
-  font-size: 200px;
+  font-size: 150px;
 }
 
 table{
