@@ -56,6 +56,8 @@ h2{
 }
 ._14 {
     font-size: 1.4em;
+    margin-left: 20px;
+
     color: #ff0000;
 }
 ul {
@@ -76,6 +78,7 @@ ul {
 }
 ul.social-icons {
     margin-top: 10px;
+    margin-left: 40px;
 
 }
 .social-icons li {
@@ -112,10 +115,8 @@ ul.social-icons {
 .fa-twitter:hover {
     background-color: #00aced;
 }
-
-
-.fa-linkedin {
-    padding:10px 14px;
+.fa-github {
+    padding:10px 12px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -123,21 +124,13 @@ ul.social-icons {
     transition: .5s;
     background-color: #322f30;
 }
-.fa-linkedin:hover {
-    background-color: #0073a4;
+.fa-github:hover {
+    background-color: #000000;
 }
-.fa-google-plus {
-    padding:10px 9px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #322f30;
-}
-.fa-google-plus:hover {
-    background-color: #e25714;
-}
+
+
+
+
 footer{
   background-color: black;
   width: contain;
